@@ -38,7 +38,7 @@ class Game
       input = gets.chomp
       return input.to_i unless input.match?(/^[1-9]$/) == false
 
-      print 'Invalid input. Please select a no. between 1 to 9: '
+      puts 'Invalid input. Please select a no. between 1 to 9.'
     end
   end
 
